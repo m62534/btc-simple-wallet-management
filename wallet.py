@@ -91,7 +91,7 @@ def print_wallet_path(wallet_name: str) -> None:
     """Print the file path to a specific wallet."""
     try:
         storage_dir = get_default_wallet_storage()
-        wallet_file = os.path.join(storage_dir, f"{wallet_name}.wallet")
+        wallet_file = os.path.join(storage_dir, f"{wallet_name}_seed.txt")
 
         if os.path.exists(wallet_file):
             print(f"Path to wallet '{wallet_name}': {wallet_file}")
