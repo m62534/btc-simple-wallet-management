@@ -1,7 +1,6 @@
+# bip-39 24 seed generator
 
-# Bitcoin Wallet Manager
-
-This Python script allows you to create, manage, and retrieve Bitcoin wallets, including generating mnemonic (seed) phrases and printing wallet paths. It also provides a feature to list existing wallets and display public addresses with QR codes.
+This Python script allows you to create and retrieve Bitcoin wallets, including generating mnemonic (seed) phrases and printing backup paths.
 
 Disclaimer: This code hasn't been extensively tested. Test and use at your own risk.
 
@@ -79,7 +78,7 @@ QR code:
 
 ### 4. **Print the File Path to a Specific Wallet**
 
-To print the file path to a specific wallet, use the `--path` option.
+To print the file path to a specific backup, use the `--path` option.
 
 ```bash
 python3 wallet.py --path <WALLET_NAME>
@@ -88,11 +87,11 @@ python3 wallet.py --path <WALLET_NAME>
 Example:
 
 ```bash
-python3 wallet.py --path MyWallet
+python3 .py --path My
 ```
 
 Example output:
 
 ```bash
-Path to wallet 'MyWallet': /home/user/.bitcoinlib/wallets/MyWallet.wallet
+Path to Wallet 'MyWallet': /home/user/.bitcoinlib/wallets/MyWallet.wallet
 ```
