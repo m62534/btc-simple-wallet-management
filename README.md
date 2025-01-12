@@ -3,6 +3,8 @@
 
 This Python script allows you to create, manage, and retrieve Bitcoin wallets, including generating mnemonic (seed) phrases and printing wallet paths. It also provides a feature to list existing wallets and display public addresses with QR codes.
 
+Disclaimer: This code hasn't been extensively tested. Test and use at your own risk.
+
 ## Requirements
 
 - Python 3.x
